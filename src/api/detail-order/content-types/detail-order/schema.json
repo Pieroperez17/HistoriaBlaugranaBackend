@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detail_orders",
+  "info": {
+    "singularName": "detail-order",
+    "pluralName": "detail-orders",
+    "displayName": "DetailOrder"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ventaId": {
+      "type": "string"
+    },
+    "productoId": {
+      "type": "string"
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "precioUnitario": {
+      "type": "decimal"
+    },
+    "subtotal": {
+      "type": "decimal"
+    }
+  }
+}
